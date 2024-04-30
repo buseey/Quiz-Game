@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Qu+iz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="homescreen">
+      <div class="instructions">
+        <h1>Welcome to the Quiz Game!</h1>
+      <span>1.Start tuşuna bastığında quiz başlayacak</span>
+      <span>2.Her soru için 10 sn süre bulunuyor</span>
+      <span>3.En kısa sürede soruları cevapla</span>
+      </div>
+      <button id="start-btn">Start</button>
+    </div>
+    <div id="display-container">
+      <div class="header">
+        <div class="number-of-count">
+          <span class="number-of-question">1 of 5 questions</span>
+        </div>
+        <div class="remainingTimeElement">
+          
+          <span class="remainingTimeElement">10s</span>
+        </div>
+      </div>
+      <div id="container">
+        <!-- sorular ve seçenekler burada gözükecek -->
+      </div>
+      <button id="next-btn">Next</button>
+    </div>
+    <div class="score-container hide">
+      <div id="user-score">Demo Score</div>
+      <button id="restart">Restart</button>
+    </div>
+   
+    <script src="app.js"></script>
+  </body>
+</html>
